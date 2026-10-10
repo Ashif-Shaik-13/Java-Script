@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center text-primary mb-4">
+        Welcome to My Bootstrap Page
+    </h1>
+
+    <p class="text-muted mb-5">
+        This is a simple page created using Bootstrap.
+    </p>
+
+    <h2 class="text-success mb-3">Section Heading</h2>
+
+    <p class="p-3 bg-light">
+        This paragraph uses Bootstrap spacing utilities.
+    </p>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand" href="#">MyBrand</a>
+
+        
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://picsum.photos/300/200?1"
+                     class="card-img-top" alt="Web Development">
+                <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-text">Learn to create websites.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://picsum.photos/300/200?2"
+                     class="card-img-top" alt="Design">
+                <div class="card-body">
+                    <h5 class="card-title">Design</h5>
+                    <p class="card-text">Learn basic graphic design.</p>
+                    <a href="#" class="btn btn-success">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://picsum.photos/300/200?3"
+                     class="card-img-top" alt="Marketing">
+                <div class="card-body">
+                    <h5 class="card-title">Marketing</h5>
+                    <p class="card-text">Learn digital marketing basics.</p>
+                    <a href="#" class="btn btn-info">Details</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
